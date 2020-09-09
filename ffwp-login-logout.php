@@ -42,7 +42,7 @@ function ffwp_add_login_logout_menu($custom_markup)
             </li>
             <?php if (is_user_logged_in()): ?>
                 <li id="menu-item-purchase-history" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-purchase-history">
-                    <a href="/account/history/" class="menu-link"><?= __('Your Orders', 'ffwp-ll'); ?></a>
+                    <a href="/account/orders/" class="menu-link"><?= __('Your Orders', 'ffwp-ll'); ?></a>
                 </li>
                 <li id="menu-item-logout" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-logout">
                     <a href="/wp-login.php?action=logout" class="menu-link"><?= __('Logout', 'ffwp-ll'); ?></a>
