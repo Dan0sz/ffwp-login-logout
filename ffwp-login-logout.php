@@ -3,7 +3,7 @@
  * @formatter:off
  * Plugin Name: Astra Pro Login/Logout
  * Description: Adds a custom login/logout menu item.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Daan (from Fast FW Press)
  * Author URI: https://ffwp.dev
  * Text Domain: ffwp-ll
