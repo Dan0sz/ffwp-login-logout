@@ -30,8 +30,8 @@ function ffwp_add_login_logout_menu($custom_markup)
             $fill_bottom = is_user_logged_in() ? '#fff' : 'none';
             ?>
             <svg class="ffwp-ll-dude" mlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 512 512'>
-                <path d='M344,144c-3.92,52.87-44,96-88,96s-84.15-43.12-88-96c-4-55,35-96,88-96S348,90,344,144Z' style='fill:<?= $fill_top; ?>;stroke:##fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px' />
-                <path d='M256,304c-87,0-175.3,48-191.64,138.6C62.39,453.52,68.57,464,80,464H432c11.44,0,17.62-10.48,15.65-21.4C431.3,352,343,304,256,304Z' style='fill:<?= $fill_bottom; ?>;stroke:##fff;stroke-miterlimit:10;stroke-width:32px' />
+                <path d='M344,144c-3.92,52.87-44,96-88,96s-84.15-43.12-88-96c-4-55,35-96,88-96S348,90,344,144Z' style='fill:<?= $fill_top; ?>;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px' />
+                <path d='M256,304c-87,0-175.3,48-191.64,138.6C62.39,453.52,68.57,464,80,464H432c11.44,0,17.62-10.48,15.65-21.4C431.3,352,343,304,256,304Z' style='fill:<?= $fill_bottom; ?>;stroke:#fff;stroke-miterlimit:10;stroke-width:32px' />
             </svg>
         </a>
         <button class="ast-menu-toggle" aria-expanded="false">
